@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": false,
+    "strict": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "noEmit": false,
+    "jsxFactory": "React.createElement",
+    "typeRoots": ["node_modules/@types", "node_modules/moment/t3.1-typings"],
+  },
+  "include": [
+    "src/**/*.ts", "src/**/*.tsx", "svg.d.ts"],
+  "exclude": ["node_modules"],
+}
